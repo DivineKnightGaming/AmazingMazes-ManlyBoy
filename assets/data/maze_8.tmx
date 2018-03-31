@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="2017.04.18" orientation="orthogonal" renderorder="right-down" width="80" height="80" tilewidth="16" tileheight="16" nextobjectid="3">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="tiles.png" width="64" height="64"/>
+ </tileset>
+ <layer name="floor" width="80" height="80">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="tileset"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6FTUP9y52FvSFg1VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV9fUAIc1eEA==
+  </data>
+ </layer>
+ <layer name="barriers" width="80" height="80">
+  <properties>
+   <property name="collide" value="true"/>
+   <property name="tileset" value="tileset"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJyllmGO5jAIQ3OD6f1Pu3+2Evvm2aTaSKN+TQmYYMw855yfv3+P/P3gO98fOZt8tW8/8t3iGravey2nlku6g/P393zOZXvpm9k+5fvm+xk2j3zf8PDMtsye8ec77+0ZT8Nr9tPPwb7FsfdpP79Nv6y5xZp7iUvTr+Ennhk/4XvwbPyePprtjH/Dc+JMe1u/Jx+JW9PPa8d7N+zWv7zHtIwvCa/ZbvrEvjU+zGX46YfYGTflxxh2f+keNw2fNkmvyFXi3NY2s1Ksc/7Fbb3PvcR969W0x2fjysQ4MU8f8519Ns+YLtnauHEzc1ovn5NzM8zTnneT+G2xk/YkLSKf+H3rMfqZsaw37FyaVWn2GZ/Mnhp64KPpdNIvy5OLM2fr1xlv+jXe2cxJcbf8Jj7iT1wz/bAZkTAxNs9ZTW+xJL+GqfVH0zHTQfLCMLKXJw7TnZbXzfyw2lsvN/2evlJ+vMsbDSe+B8+mSaYRLVdinT5SfblH7FyJX423R2yInzph+Lb+4O/Gr+1utznYuJTmN3sjxbdZkO7uhquWV5udaXbZbGn5zH2bA4YlzQwu6xme431bfJsjqR+tHuTBNjN5T/xtdTENPmLLGWC4DFOaY8Zx03Z7pz/GJ7a5N32SP9xLmrzdMzE0HWuz+/Uz7z5xzZ6MT38zV/LD+vGILeNxWc9zv/Furuf8vovE6YnLtL3xcNqkOZawTQwpP3Iu9dT83jTJ8Jk2JuyMfePfZhgxW32MR/ybdvRteIz/t7kmDTe9Neyp96yHzH+bCfTX3omXPZK0NmmKaarpi9WcNrS9/bbpMRdzT3OWuGcszmnjOWPRBzGnXOg36a3pnsXmXpo3htfskzbR38Rp8W6eaaV6bzkmHUu+Nz/Jh9136mPTOeoFdYXnGx8Tb/nN4ppuzO+WQ+qBB0+LY/PaerHdKfOwGWHzxPCYX/q2fiOOVJ/tm/mx/jN8B7bTPuV9o+9JXzhbjLfG1eTH8N5wgb3U5lzT5TNs7fx219y7qQPP2l7SFt65xdm0yN5bTyYf6W6SvqXzzMXmDnnG2jS9uO1b4837njS09Y3hbvgS3nSv6X5TnrbX7j3x6ebZ8rU949/NXc/V6md63/qq7Z3zO1dqgNWL+W1zzupv+M75N16rH+1Mu5KfM+yM57bSt2Q/cdq73ZfpfIrReuNWR1s9m73p1ruf6mraOHlDPUxzkRxovDMezyf93tzHlse050yYuKyHyZeZQ5on851nmIthMQzbfSQMdqfEYzkajvQkLpttjGn4LIcUz/AZp0z3Eq6EgTEMB2OSe7c8YS3Mj2njpvPmP9XNVppztJl+mlZaDZLvVjO7V86hNnsMK+tI3U/1SbklDSHW1NvEtC2bxZuONv4kLfuRvYSH522GMEfLNc0I9v08v81D0+EH77zLxj8+bS7O1WYuY5/jfhJXud9qRp60frHzxHyje4bZvnPd9kKKnWbSzRwkL8iv92kxLJ/EiWaTets4czOzbC/VkHef9KXp1pZfmp/zm83F1DtpfqQ8qAvWQ7dz1DTBeiXdY6pJ67fkw5ZxMmlwmlWcZdM+9Vi6D9NOi916+FYbyJvmg7VoM8vmW8NuPud+66E2J/g96VLCwpmT+pnxLRfGSbGnr/SdMZM/1sbm/e09WgzeETG1s9NHs2X/87dhNb1jXU1Ltpk/8SfOpxmUtIwcs5pNP4xlOsJ4vI+Zhz2T/p1lP2FJ8e3sbSyzo47Rf9Kd27hbH9o+eZe4kM5TC+c+azx9JH5vWKiXzIM4bRak/EzXmZf1I1fS+CP7VmvjSeuFTZ8bRrNPumJ4ks8va5uBxpl3/0YLJtbG6Y0HKa7Ve9M6mxE2Dza9/cJD2qW7Thy3mrM2Fj+deX+nGZXO2P7MpeFIupk0wnCl/jWc1tPUkYlj08CkRyl2mnN2xvgxcaWc00p3YTOD6+tc/Z/F+2Rv3pyZe6m2Zp/qbfWnDtzaJt0xfhi2NGNMJ+dq2ma9alpuvfd1zrT+2HxtXEhas2mfcYMxTfebv6Q1xMPaNe4Rl9kfvBsvLJ7NP+NZ4rXlmmq1aSnPWE9vs9BiJq1v3zdOWl9Z7Lb/VdtuV5qViQfv73ZPXKZBCQNnH7GlGpCnxMycEjdTX9F309nEnQPbI3um4akGqX8PbG741/SN31gD2tHG7jzFSvOv6ceR78afxo1b34bPuGha2daX3qVv03KupLE337deT36SPqZ7t/ueNq037A6sbobnxtY4nXSQzxnD+tz26ce0hvfG1bSZd3RjY8/NT+uB9J601DiS4pnNNktT37LPTXPtzzhEXEn359Pwm77R56atM266+/Rt67eDs2l9qWOaAbT/GqPlyfeWK32++ze6kJ6cZ8Rg+me5vb8TVxLXp49NRze9aHVLd5KwTszWk3Yu+WsxiMl63OLdcr/NjTTHiIW2j/yZ36YbVmfjyGtvPZR4m1bjQuJdmpdH7Nu82rAZTp693d/8GR7OjPb/Av2aL/OX9Nu0LOmO8c/6xeZHmic2G290ij5mbkfeTZ941vjPtfG42Zjt/65bvOTE3OMdmEak86nnaHMzB9OdtO/GOeZinEz1ZizDnzRo7s1Fvm08tHezM61Ifchck862PN59zsmUi/kzO/LX/L8+TLPaHNw0gr6bDVfSbdNbqxM1g3lZXZK9cZrnrC5b3S0Pw2caxPokTWds6jZxtvub/olhxrzVX7vvxjfTHeY07TkfUx5zGU8Y++Bb6vHEiZs+me+mB2lunPP7Xrb+tHrzecM/xmp3YlpH/U65s45pVqT+trnYZo/l1vhn583WambrRlu4bnU2nbW7t3u2mFZLm2fGN7tXYki60TTxhlfkQLqDxMdNj6wfjXdned/6OvGVv1ustFLtbd98Uv/aPNpi2f2w9puu2Qxr+meaRUyJI2kvcZr++M3OTizkZtN54rG1adhrczML2vkUd9ubPjc+N0xfMbR5Th1M/tosYA2tXuT+z/KNZ43XNptbjOTPYre/hM98NNv5/gedjc2/
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="goal" type="goal" x="16" y="464" width="16" height="16"/>
+  <object id="2" name="player_start" type="player" x="1248" y="416" width="16" height="16"/>
+ </objectgroup>
+</map>
