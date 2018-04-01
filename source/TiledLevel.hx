@@ -35,7 +35,7 @@ class TiledLevel extends TiledMap
 
 	private var collidableTileLayers:Array<FlxTilemap>;
 
-	public function new(tiledLevel:Dynamic, state:MazePlayState)
+	public function new(tiledLevel:Dynamic, state:PlayState)
 	{
 		super(tiledLevel);
 
@@ -91,7 +91,7 @@ class TiledLevel extends TiledMap
 		}
 	}
 
-	public function loadObjects(state:MazePlayState)
+	public function loadObjects(state:PlayState)
 	{
 		var layer:TiledObjectLayer;
 		for (layer in layers)
@@ -112,7 +112,7 @@ class TiledLevel extends TiledMap
 		}
 	}
 
-	private function loadObject(state:MazePlayState, o:TiledObject, g:TiledObjectLayer, group:FlxGroup)
+	private function loadObject(state:PlayState, o:TiledObject, g:TiledObjectLayer, group:FlxGroup)
 	{
 		var x:Int = o.x;
 		var y:Int = o.y;

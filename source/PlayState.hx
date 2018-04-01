@@ -20,7 +20,7 @@ class PlayState extends FlxState
 {
 	
 	public var player:MazePlayer;
-	private var _level:MazeTiledLevel;
+	private var _level:TiledLevel;
 	private var hudCam:FlxCamera;
 	private var playerCam:FlxCamera;
 	private var mbCam:FlxCamera;
@@ -42,7 +42,7 @@ class PlayState extends FlxState
 		FlxG.cameras.bgColor = 0xffacacac;
 		
 		// Load the level's tilemaps
-		_level = new MazeTiledLevel(Reg.mazes[Reg.mazeSelect], this);
+		_level = new TiledLevel(Reg.mazes[Reg.mazeSelect], this);
 		
 		// Add tilemaps
 		add(_level.backgroundLayer);
